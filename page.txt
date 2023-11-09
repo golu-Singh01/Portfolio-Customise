@@ -1,0 +1,196 @@
+
+  <div class="modal top fade" id="Projectsmodal" tabindex="-1" aria-labelledby="ProjectsmodalLabel" aria-hidden="true"
+    data-mdb-backdrop="true" data-mdb-keyboard="true">
+    <div class="modal-dialog modal-xl  modal-dialog-centered">
+      <div class="modal-content" style="background-color: black;">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ProjectsmodalLabel">Projects</h5>
+          <button type="button" class="btn-close text-light" data-mdb-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row flex-row">
+
+              <!-- Zero-Item -->
+              <div class="carousel-item">
+                <div class="card border border-light shadow-0  col-lg-4  col-12 p-3"
+                  style="flex: 0 0 auto; background-color: black;">
+                  <div class="card-header d-flex justify-content-between  p-2">
+                    <i class="fi fi-ss-api text-light"></i>
+                    <i class="fi fi-ss-file text-light"></i>
+                  </div>
+                  <div class="card-body border border-light">
+                    <p class="card-text text-light">
+                      Certificate Of Achievements<br> UI / UX Website Design 1
+                    </p>
+                  </div>
+                  <div class="card-footer border border-light text-light text-muted text-center">23rd Dec 2022 -
+                    28th
+                    Dec 2022</div>
+                </div>
+              </div>
+
+
+              <!-- First-Item -->
+              <div class="carousel-item">
+                <div class="card border border-light shadow-0  col-lg-4  col-12   p-3"
+                  style="flex: 0 0 auto; background-color: black;">
+                  <div class="card-header d-flex justify-content-between  p-2">
+                    <i class="fi fi-ss-api text-light"></i>
+                    <i class="fi fi-ss-file text-light"></i>
+                  </div>
+                  <div class="card-body border border-light">
+                    <p class="card-text text-light">
+                      Certificate Of Achievements<br> UI / UX Website Design 2
+                    </p>
+                  </div>
+                  <div class="card-footer border border-light text-light text-muted text-center">23rd Dec 2022 -
+                    28th
+                    Dec 2022</div>
+                </div>
+              </div>
+
+               <!-- Second-Item -->
+              <div class="carousel-item">
+                <div class="card border border-light shadow-0  col-lg-4  col-12   p-3"
+                  style="flex: 0 0 auto; background-color: black;">
+                  <div class="card-header d-flex justify-content-between  p-2">
+                    <i class="fi fi-ss-api text-light"></i>
+                    <i class="fi fi-ss-file text-light"></i>
+                  </div>
+                  <div class="card-body border border-light">
+                    <p class="card-text text-light">
+                      Certificate Of Achievements<br> UI / UX Website Design 2
+                    </p>
+                  </div>
+                  <div class="card-footer border border-light text-light text-muted text-center">23rd Dec 2022 -
+                    28th
+                    Dec 2022</div>
+                </div>
+              </div>
+
+
+              <div class="carousel-item">
+                <!-- Third-Item -->
+                <div class="card border border-light shadow-0  col-lg-4  col-12   p-3"
+                  style="flex: 0 0 auto; background-color: black;">
+                  <div class="card-header d-flex justify-content-between  p-2">
+                    <i class="fi fi-ss-api text-light"></i>
+                    <i class="fi fi-ss-file text-light"></i>
+                  </div>
+                  <div class="card-body border border-light">
+                    <p class="card-text text-light">
+                      Certificate Of Achievements<br> UI / UX Website Design 2
+                    </p>
+                  </div>
+                  <div class="card-footer border border-light text-light text-muted text-center">23rd Dec 2022 -
+                    28th
+                    Dec 2022</div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <!-- Fourth-Item -->
+                <div class="card border border-light shadow-0  col-lg-4  col-12   p-3"
+                  style="flex: 0 0 auto; background-color: black;">
+                  <div class="card-header d-flex justify-content-between  p-2">
+                    <i class="fi fi-ss-api text-light"></i>
+                    <i class="fi fi-ss-file text-light"></i>
+                  </div>
+                  <div class="card-body border border-light">
+                    <p class="card-text text-light">
+                      Certificate Of Achievements<br> UI / UX Website Design 2
+                    </p>
+                  </div>
+                  <div class="card-footer border border-light text-light text-muted text-center">23rd Dec 2022 -
+                    28th
+                    Dec 2022</div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <!-- Fifth-Item -->
+                <div class="card border border-light shadow-0  col-lg-4  col-12   p-3"
+                  style="flex: 0 0 auto; background-color: black;">
+                  <div class="card-header d-flex justify-content-between  p-2">
+                    <i class="fi fi-ss-api text-light"></i>
+                    <i class="fi fi-ss-file text-light"></i>
+                  </div>
+                  <div class="card-body border border-light">
+                    <p class="card-text text-light">
+                      Certificate Of Achievements<br> UI / UX Website Design 2
+                    </p>
+                  </div>
+                  <div class="card-footer border border-light text-light text-muted text-center">23rd Dec 2022 -
+                    28th
+                    Dec 2022</div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <!-- Six-Item -->
+                <div class="card border border-light shadow-0  col-lg-4  col-12   p-3"
+                  style="flex: 0 0 auto; background-color: black;">
+                  <div class="card-header d-flex justify-content-between  p-2">
+                    <i class="fi fi-ss-api text-light"></i>
+                    <i class="fi fi-ss-file text-light"></i>
+                  </div>
+                  <div class="card-body border border-light">
+                    <p class="card-text text-light">
+                      Certificate Of Achievements<br> UI / UX Website Design 2
+                    </p>
+                  </div>
+                  <div class="card-footer border border-light text-light text-muted text-center">23rd Dec 2022 -
+                    28th
+                    Dec 2022</div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <!-- Seventh-Item -->
+                <div class="card border border-light shadow-0  col-lg-4  col-12   p-3"
+                  style="flex: 0 0 auto; background-color: black;">
+                  <div class="card-header d-flex justify-content-between  p-2">
+                    <i class="fi fi-ss-api text-light"></i>
+                    <i class="fi fi-ss-file text-light"></i>
+                  </div>
+                  <div class="card-body border border-light">
+                    <p class="card-text text-light">
+                      Certificate Of Achievements<br> UI / UX Website Design 2
+                    </p>
+                  </div>
+                  <div class="card-footer border border-light text-light text-muted text-center">23rd Dec 2022 -
+                    28th
+                    Dec 2022</div>
+                </div>
+              </div>
+
+              <!-- carousel-Button -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon text-light" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon text-light" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
