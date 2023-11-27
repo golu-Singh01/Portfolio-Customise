@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Icon Radio Buttons</title>
+  <link rel="shortcut icon" href="https://mindflairr.com/img/mindflairr_col_logo.png" type="image/x-icon">
+  <!-- Flaticons -->
+  <link rel="stylesheet"
+        href='https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+  <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-straight/css/uicons-bold-straight.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css'>
+  <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-ezr7uHhCk4AHov2q0YJpaFcyHdA9hJ3hn1KeBjLeSHf0J9uGhcF4ceRw3e5LWeAc" crossorigin="anonymous">
+  <style>
+    /* Add some basic styling for better presentation */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    i {
+      margin-right: 10px;
+    }
+
+    .selected-icon {
+      background-color: green;
+      width: 100px;/* Change the color to indicate the selected icon */
+    }
+  </style>
+</head>
+<body>
+
+<label>
+  <input type="radio" name="icon" value="star" onchange="handleIconChange(this)">
+  <i class="fi fi-ss-gears"></i>
+</label>
+
+<label>
+  <input type="radio" name="icon" value="heart" onchange="handleIconChange(this)">
+  <i class="fi fi-ss-display-code"></i>
+</label>
+
+<label>
+  <i class="fi fi-ss-palette" type="radio" name ="icon" value="smile" onchange="handleIconChange(this)"></i>
+</label>
+
+
+<div id="result"></div>
+
+<script>
+  function handleIconChange(radio) {
+    // Reset all icons to their default color
+    document.querySelectorAll('i').forEach(icon => {
+      icon.classList.remove('selected-icon');
+    });
+
+    // Highlight the selected icon
+    const selectedIcon = radio.nextElementSibling.querySelector('i');
+    selectedIcon.classList.add('selected-icon');
+
+    // Perform actions based on the selected icon (add your logic here)
+    const resultDiv = document.getElementById('result');
+    resultDiv.textContent = `Selected icon: ${radio.value}`;
+  }
+</script>
+
+</body>
+</html>
